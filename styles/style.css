@@ -1,0 +1,30 @@
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+.container{
+    width: 1000px;
+}
+
+
+
+.col-3:active{
+    overflow: none;
+    display: none;
+    background-color: red;
+    transition: all 1s ease ;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -webkit-transition: all 1s ease ;
+    -moz-transition: all 1s ease ;
+    -ms-transition: all 1s ease ;
+    -o-transition: all 1s ease ;
+
+    
+}
+@
